@@ -1,5 +1,6 @@
 import React from 'react';
 import List from './list';
+import Header from '../header';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -10,6 +11,7 @@ const Container = styled.div`
 const Home = () => (
     <div className="home">
         <Container className="col-md-12 col-12">
+            <Header/>
             <div className="col-md-12 col-sm-12">
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
